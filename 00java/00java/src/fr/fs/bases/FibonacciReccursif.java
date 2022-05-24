@@ -32,10 +32,6 @@ public class FibonacciReccursif {
 		return fibonacciReccursif(n - 2) + fibonacciReccursif(n - 1);
 	}
 	
-	
-	
-	
-	
 	private static long fibonacciReccursifTerminal(long n, long moinsDeux,long moinsUn) {	
 		if (n == 0) return moinsDeux;
 		if (n == 1) return moinsUn;
